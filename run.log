@@ -1,0 +1,7 @@
+2026-07-02T14:55:09+0530 INFO Job start
+2026-07-02T14:55:09+0530 INFO Config loaded and validated: seed=42 window=5 version=v1
+2026-07-02T14:55:09+0530 INFO Rows loaded: 10000
+2026-07-02T14:55:09+0530 INFO Computing rolling mean for close with window=5
+2026-07-02T14:55:09+0530 INFO Generating binary signal from close versus rolling mean
+2026-07-02T14:55:09+0530 INFO Metrics summary: {"latency_ms": 24, "metric": "signal_rate", "rows_processed": 10000, "seed": 42, "status": "success", "value": 0.4991, "version": "v1"}
+2026-07-02T14:55:09+0530 INFO Job end status=success
